@@ -15,12 +15,12 @@ while [ $choice -eq 8 ]; do
 read choice
 if [ $choice -eq 1 ] ; then
 
-	echo "Hello world"
-	#echo "Downloading NadekoBot, please wait."
-	# curl -L https://github.com/Duinhil/NadekoBot-BashScript/raw/master/nadeko_installer_latest.sh | sh
-	# echo ""
-	# echo "NadekoBot Dev Build (Latest) downloaded."
-	# bash linuxAIO.sh
+	echo ""
+	echo "Downloading NadekoBot, please wait."
+	curl -L https://github.com/Duinhil/NadekoBot-BashScript/raw/master/nadeko_installer_latest.sh | sh
+	echo ""
+	echo "NadekoBot Dev Build (Latest) downloaded."
+	bash linuxAIO.sh
 else
 	if [ $choice -eq 2 ] ; then
 		echo ""
